@@ -4,7 +4,6 @@ layout: post
 title: "rev 1"
 permalink: explorations/review1
 nav: true
-include: google-analytics.html
 ---
 
 Rabbits like lettuce.
