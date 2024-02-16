@@ -4,6 +4,7 @@ layout: post
 title: "rev 2"
 permalink: explorations/review2
 nav: true
+include: analytics.html
 ---
 
 Lettuce can be grown with hydroponics.

@@ -3,6 +3,7 @@ layout: post
 title: "Analytics"
 permalink: explorations/analytics
 nav: true
+include: analytics.html
 ---
 
 TODO: Look at your analytics data. Write about the

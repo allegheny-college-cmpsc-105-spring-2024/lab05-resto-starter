@@ -3,6 +3,7 @@ layout: page
 title: contact
 permalink: /contact
 nav: true
+include: analytics.html
 ---
 
 - TODO: fill in fake contact information for the business

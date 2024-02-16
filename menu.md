@@ -3,6 +3,7 @@ layout: page
 title: amazing menu
 permalink: /menu
 nav: true
+include: analytics.html
 ---
 
 ## menu
