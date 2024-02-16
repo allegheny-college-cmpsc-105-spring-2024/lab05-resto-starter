@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "about"
-include: analytics.html
+include: google-analytics.html
 ---
 
 - TODO: look at the raw markdown below for examples of making links, bold, colors, quotes, etc.
