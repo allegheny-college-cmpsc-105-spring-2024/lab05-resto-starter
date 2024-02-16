@@ -19,16 +19,6 @@ setup: |
         count: 0
         exact: true
 
-- _config.yml:
-    - description: Ensure that the _config.yml file exists
-      check: ConfirmFileExists
-    - description: Complete all TODOs, remove the TODO markers in _config.yml
-      check: MatchFileFragment
-      options:
-        fragment: TODO
-        count: 0
-        exact: true
-
 - index.md
     - description: Ensure that the index.md file exists
       check: ConfirmFileExists
@@ -50,6 +40,16 @@ setup: |
         fragment: ">"
         count: 2
         exact: false
+
+- "_config.yml":
+    - description: Ensure that the _config.yml file exists
+      check: ConfirmFileExists
+    - description: Complete all TODOs, remove the TODO markers in _config.yml
+      check: MatchFileFragment
+      options:
+        fragment: TODO
+        count: 0
+        exact: true
 
 - menu.md
     - description: Ensure that the menu.md file exists
@@ -89,7 +89,7 @@ setup: |
         count: 1
         exact: true
 
-- _explorations/review1.md:
+- "_explorations/review1.md":
     - description: Ensure that the _explorations/review1.md file exists
       check: ConfirmFileExists
     - description: Write minimum of 150 words in _explorations/review1.md
@@ -104,7 +104,7 @@ setup: |
         count: 1
         exact: false
 
-- _explorations/review2.md:
+- "_explorations/review2.md":
     - description: Ensure that the _explorations/review2.md file exists
       check: ConfirmFileExists
     - description: Write minimum of 150 words in _explorations/review2.md
@@ -119,7 +119,7 @@ setup: |
         count: 1
         exact: false
 
-- _explorations/analytics.md:
+- "_explorations/analytics.md":
     - description: Ensure that the _explorations/analytics.md file exists
       check: ConfirmFileExists
     - description: Complete all TODOs, remove the TODO markers in analytics.md
@@ -141,7 +141,7 @@ setup: |
         exact: false
 
 # count number of commits in the GitHub repository
-- description: Have a total of at least 5 local commits in repository before pushing
+- description: Have a total of at least 9 local commits in repository
   check: CountCommits
   options:
     count: 9

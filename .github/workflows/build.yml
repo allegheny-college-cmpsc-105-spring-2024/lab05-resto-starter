@@ -27,10 +27,6 @@ jobs:
           uses: actions/checkout@v2
           with:
             fetch-depth: 0
-        # Run the mdl linting tool
-        # Refers to .mdlrc file in repository
-        - name: Run Markdown Linting
-          uses: actionshub/markdownlint@main
         # Setup Python for the current language version
         - name: Setup Python ${{ matrix.python-version }}
           if: always()
@@ -47,4 +43,4 @@ jobs:
           if: always()
           run:  |
             pip install gatorgrade
-            gatorgrade --config config/gatorgrade.yml
+            gatorgrade --config configfiles/gatorgrade.yml

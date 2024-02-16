@@ -15,21 +15,24 @@ After completing this lab, you should be able to:
 - read information from dashboards
 - identify different sources of data
 - navigate the directory structure in the project
+- contribute to web docs online
 
 ## TODOs
 
 Summary of TODOs. Details are below
 
-0. TODO: Clone your repo using git, and open the project in Spyder
+0. TODO: in GitHub, go to settings>pages (you can add /settings/pages to the url)
+   Under branch, click  `main` and then `save`. Refresh after 30 seconds to get live link!
+1. TODO: Clone your repo using git, and open the project in Spyder
    following steps from last lab
-1. TODO: Add analytics to the site
-2. TODO: Submit work to GitHub using git
-3. TODO: Update this website with content!
-4. TODO: Submit work to GitHub using git
-5. TODO: Review your colleagues' restaurants/sports sites and write two short reviews
-6. TODO: Submit work to GitHub using git
-7. TODO: Check your analytics and make an additional post about the meaning of the data you see
-8. TODO: Submit work to GitHub using git
+2. TODO: Add analytics to the site
+3. TODO: Submit work to GitHub using git
+4. TODO: Update this website with content!
+5. TODO: Submit work to GitHub using git
+6. TODO: Review your colleagues' restaurants/sports sites and write two short reviews
+7. TODO: Submit work to GitHub using git
+8. TODO: Check your analytics and make an additional post about the meaning of the data you see
+9. TODO: Submit work to GitHub using git
 
 ## How to clone your repo
 
