@@ -1,7 +1,6 @@
 ---
 layout: post
-# TODO: change the title as needed
-title: "About my restaurant"
+title: "about"
 ---
 
 - TODO: look at the raw markdown below for examples of making links, bold, colors, quotes, etc.

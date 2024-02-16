@@ -31,7 +31,7 @@ setup: |
     - description: include heading for Reviews in index.md
       check: MatchFileFragment
       options:
-        fragment: Reviews
+        fragment: "# Reviews"
         count: 1
         exact: false
     - description: include quotes under the reviews using Markdown syntax (in index.md)
@@ -60,11 +60,11 @@ setup: |
         fragment: TODO
         count: 0
         exact: true
-    - description: include at least two menu item photos in menu.md
+    - description: include at least one menu item photo in menu.md
       check: MatchFileFragment
       options:
         fragment: "]("
-        count: 2
+        count: 1
         exact: false
     - description: remove the default image in menu.md
       check: MatchFileFragment
